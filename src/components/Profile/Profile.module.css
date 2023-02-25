@@ -1,39 +1,43 @@
 .profile {
+    background-color: #fff;
     border-radius: 10px;
+    padding: 20px;
 }
 
 .description {
-    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .avatar {
-    padding: 0;
+    width: 100%;
 }
 
 .name {
+    /* display: block; */
     font-size: 60px;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    text-align: center;
 }
 
 .tag {
-    padding: 0;
+    text-align: center;
 }
 
 .location {
-    padding: 0;
+    text-align: center;
 }
-
-/* avatar
-name
-tag
-location
-
-stats
-label
-quantity */
 
 .stats {
     display: flex;
-    gap: 30px;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    /* border: #00098d; */
+    background-color: #acacac;
 }
 
 .label{
