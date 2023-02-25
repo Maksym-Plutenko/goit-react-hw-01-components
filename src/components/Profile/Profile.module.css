@@ -1,0 +1,45 @@
+.profile {
+    border-radius: 10px;
+}
+
+.description {
+    padding-top: 10px;
+}
+
+.avatar {
+    padding: 0;
+}
+
+.name {
+    font-size: 60px;
+}
+
+.tag {
+    padding: 0;
+}
+
+.location {
+    padding: 0;
+}
+
+/* avatar
+name
+tag
+location
+
+stats
+label
+quantity */
+
+.stats {
+    display: flex;
+    gap: 30px;
+}
+
+.label{
+    display: block;
+}
+
+.quantity{
+    display: block;
+}
