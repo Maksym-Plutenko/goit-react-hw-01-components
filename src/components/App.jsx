@@ -16,7 +16,7 @@ export const App = () => {
       style={{
         height: '100vh',
         display: 'flex',
-        gap: 20,
+        gap: 40,
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,

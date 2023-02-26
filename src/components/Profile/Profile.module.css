@@ -5,7 +5,6 @@
 }
 
 .description {
-    /* margin-bottom: 20px; */
     padding: 20px;
 }
 
@@ -34,10 +33,18 @@
 }
 
 .card {
-    background-color: rgb(193, 251, 255);
+    background-color: #a4f4ff;
     width: calc(100% / 3);
     border: 1px solid rgb(0, 165, 177);
     padding: 10px;
+}
+
+.card:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+.card:last-child {
+    border-radius: 0 0 10px 0;
 }
 
 .label{
