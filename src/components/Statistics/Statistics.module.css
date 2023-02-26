@@ -16,7 +16,7 @@
 }
 
 .item {
-    background-color: #daac19;
+    background-color: blueviolet;
     padding: 20px;
 }
 
@@ -24,9 +24,12 @@
     display: block;
     text-align: center;
     margin-bottom: 5px;
+    color: #fff;
+    font-size: 30px;
 }
 
 .percentage {
     display: block;
     text-align: center;
+    color: #fff;
 }
