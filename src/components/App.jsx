@@ -16,11 +16,12 @@ export const App = () => {
       style={{
         height: '100vh',
         display: 'flex',
+        gap: 20,
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
         color: '#010101',
-        backgroundColor: '#a4d8da',
+        backgroundColor: '#e6d3fc',
       }}
     >
       <Profile
@@ -33,9 +34,9 @@ export const App = () => {
 
       <Statistics title="Upload stats" stats={data} />
 
-      <FriendList friends={friends} />;
+      <FriendList friends={friends} />
 
-      <TransactionHistory items={transactions} />;
+      <TransactionHistory items={transactions} />
     </div>
   );
 };

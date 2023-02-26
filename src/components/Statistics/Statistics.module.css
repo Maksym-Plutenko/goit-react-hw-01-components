@@ -1,0 +1,29 @@
+.statistics {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 60px;
+    text-align: center;
+}
+
+.statList {
+    display: flex;
+}
+
+.item {
+    background-color: #daac19;
+    padding: 20px;
+}
+
+.label {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.percentage {
+    display: block;
+    text-align: center;
+}
